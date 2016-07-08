@@ -16,6 +16,8 @@ RUN	apk --update add curl tar \
 
 EXPOSE 8080
 
+USER daemon:daemon
+
 VOLUME ${JIRA_HOME}
 
 WORKDIR ${JIRA_HOME}
