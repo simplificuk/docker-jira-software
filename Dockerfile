@@ -3,7 +3,7 @@ FROM anapsix/alpine-java:jdk
 # Configuration variables
 ENV JIRA_HOME     /var/atlassian/jira
 ENV JIRA_INSTALL  /opt/atlassian/jira
-ENV JIRA_VERSION  7.1.9
+ENV JIRA_VERSION  7.5.1
 
 # Install Atlassian JIRA and helper tools
 
